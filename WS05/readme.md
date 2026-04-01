@@ -1,0 +1,1 @@
+Tämä on WS05b Responsive Design Principles kansio.

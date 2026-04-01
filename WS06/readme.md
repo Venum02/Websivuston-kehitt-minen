@@ -1,0 +1,1 @@
+Tämä on WS06b Bootstap kansio.
