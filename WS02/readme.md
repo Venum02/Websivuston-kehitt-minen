@@ -1,1 +1,1 @@
-Tämä on WS02b CSS Fundamentals kansio.
+Tämä on WS02b CSS Fundamentals kansio. Suoritettu WS2 tehtävä.

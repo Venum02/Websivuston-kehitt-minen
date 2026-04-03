@@ -1,1 +1,1 @@
-Tämä on WS01b HTML Basics kansio.
+Tämä on WS01b HTML Basics kansio. Suoritettu WS01 tehtävä.
