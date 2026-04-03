@@ -1,0 +1,72 @@
+p {
+      color: rgb(0, 0, 0);
+    }
+    
+    body {
+      background-color: rgb(147, 172, 177);
+    }
+    
+    h1 {
+      font-size: 3em;
+    }
+  .content-box {
+  padding: 15px;
+  margin: 00px;
+  background-color: #f5cbef;
+  border: 5px solid #01010c;
+}
+table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    th, td {
+      border: 20px solid #e4e9e8;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    th, td {
+      color: rgb(255, 255, 255);
+      background-color: #977f12;
+    }
+    
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    label {
+      font-weight: bold;
+    }
+    
+    input[type="text"], input[type="email"], input[type="tel"] {
+      padding: 15px;
+      border: 10px solid #977f12;
+      border-radius: 6px;
+    }
+    
+    input[type="submit"] {
+      background-color: #ffffff;
+      color: rgb(20, 20, 20);
+      padding: 10px;
+      border: 5px solid #9b7c15;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+     input[type="submit"]:hover {
+      background-color: #977f12;
+    }
+    
+    input[type="reset"] {
+      background-color: #ffffff;
+      color: rgb(0, 0, 0);
+      padding: 10px;
+      border: 5px solid #835b06;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+     input[type="reset"]:hover {
+      background-color: #f1f1f1;
+    }
