@@ -1,1 +1,1 @@
-Tämä on WS06b Bootstap kansio.
+Tämä on WS06b Bootstap kansio. Suoritettu.
