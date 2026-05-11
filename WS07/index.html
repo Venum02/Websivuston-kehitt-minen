@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+   <!-- Tässä vaihdettu taustaväri mustaksi ja teksti valkoiseksi, jotta kontrasti on parempi. Myös navigaatiolinkit, hakukenttä ja dropdown-valikon tekstit on muutettu -->
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      min-height: 100vh;
+    }
+
+    body a,
+    body p,
+    body h1,
+    body h2,
+    body h3,
+    body h4,
+    body h5,
+    body h6,
+    body .nav-link,
+    body .navbar-brand,
+    body .btn,
+    body .form-control {
+      color: #fff !important;
+    }
+
+    body .form-control {
+      background-color: #222;
+      border-color: #3d3939;
+      color: #fff !important;
+    }
+<!--Laitettu teksti näkyviin hakukenttään-->
+
+    body .form-control:focus {
+      background-color: #222;
+      border-color: #666;
+      color: #fff !important;
+      box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+    }
+
+    body .form-control::placeholder {
+      color: #eee7e7 !important;
+      opacity: 1;
+    }
+
+    body .navbar {
+      background-color: #f8f9fa !important;
+    }
+
+    body .navbar .nav-link,
+    body .navbar .navbar-brand {
+      color: #000000 !important;
+    }
+
+    body .dropdown-menu {
+      background-color: #ffffff;
+    }
+
+    body .dropdown-item {
+      color: #000000 !important;
+    }
+
+    body .dropdown-item:hover {
+      background-color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Yläpalkki sisältäen navigaatiolinkit ja hakukentän -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Etusivu</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+<!--Tehty navigointilinkit toimiviksi-->
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="padelkentät.html">Padelkentät</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Padlemailat.html">Padelmailat</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Maailman parhaat pelaajat
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="miehet.html">Miehet</a></li>
+              <li><a class="dropdown-item" href="naiset.html">Naiset</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+          <button class="btn btn-dark" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+<!--Käytetty "karusellia", jotta saa etusivulle kiinnostusta herättävän esityksen-->
+
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Tapia.avif" class="d-block mx-auto" style="max-width: 70%; height: 800px;" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="padel-match.avif" class="d-block mx-auto" style="max-width: 70%; height: 800px;" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="padel-court.avif" class="d-block mx-auto" style="max-width: 70%; height: 800px;" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span> 
+  </button>
+</div>
+
+<!--bootstrap javascript-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
