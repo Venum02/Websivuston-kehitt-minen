@@ -47,6 +47,7 @@
 
     body .navbar {
       background-color: #f8f9fa !important;
+      min-height: 100px;
     }
 
     body .navbar .nav-link,
@@ -65,6 +66,45 @@
     body .dropdown-item:hover {
       background-color: #ffffff;
     }
+
+    .img-fluid {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .content-section {
+      padding: 1.5rem 1rem 2rem;
+    }
+
+    footer {
+  margin-top: auto;
+  border-top: 2px solid #ffffff;
+}
+
+footer a {
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #000000 !important;
+}
+
+h2 {
+      margin-top: 3rem;
+      margin-bottom: 1.2rem;
+    }
+
+h3 {
+      margin-top: 3rem;
+      margin-bottom: 1.2rem;
+    }
+
+h1 {
+   margin-top: 3rem;
+   margin-bottom: 1.2rem;
+    }
+
   </style>
 </head>
 <body>
@@ -102,10 +142,60 @@
     </div>
   </nav>
 
-  <h1 style="padding: 30px; text-align: center;">Padelkentät</h1>
-  <p style="padding: 20px; text-align: center;">Lisää sisältö tähän sivuun</p>
+<!--Selostusta Padelkenttien ominaisuuksista. Lisäksi rivivälien säätöä on käsitelty näissä komennoissa.-->
+
+  <div class="container content-section text-center">
+  <h1 style="padding: 0px; text-align: center;">Padelkentät</h1>
+
+  <h2 style="padding: 0px; text-align: center;">Padel-kentät ja monipuoliset pelialustat</h2>
+  <p style="padding:  0px; text-align: center;">Padel‑kenttä on lajin ydin: suljettu, lasiseinillä rajattu pelialue, joka mahdollistaa padelin nopeatempoisen ja taktisen pelin. Kentän rakenne ja materiaalit on suunniteltu tuottamaan tasainen pomppu, miellyttävä pelituntuma ja turvallinen liikkuminen kaikentasoisille pelaajille.</p>
+
+  <h2 style="padding: 0px; text-align: center;">Padel-kentän mitat ja rakenne</h2>
+  <p style="padding: 0px; text-align: center;">Padel‑kentän viralliset mitat ovat 10 m leveys ja 20 m pituus. Lisäksi Keskellä kenttää kulkee verkko, joka jakaa kentän kahteen yhtä suureen osaan. Kenttä on aina suljettu, ja seinät ovat olennainen osa peliä.</p>
+
+  <h2 style="padding: 0px; text-align: center;">Padel-kentän seinät</h2>
+  <p style="padding: 0px; text-align: center;">Padel-kentän takaseinät valmistettu karkaistusta turvalasista, jotta se kestäisi pelaajan tai mailan iskeytymisen sitä vasten.</p>
+  <p style="padding: 0px; text-align: center;">Padel-kentän sivuseinät ovat lasia ja metalliverkkoa, jotka tuovat "lisämausteen" peliin erilaisten kimmokkeiden takia.</p>
+
+  <h2 style="padding: 0px; text-align: center;">Padel-kentän alusta</h2>
+  <p style="padding: 0px; text-align: center;">Padel-kentän alusta on yleensä keinonurmea, joka tarjoaa hyvän pidon ja mukavan pelituntuman. Keinonurmi on suosittu valinta, koska se vaimentaa iskuja ja vähentää loukkaantumisriskiä.</p>
+  <p style="padding: 0px; text-align: center;"> Alustan alla on usein kerros hiekkaa tai kumirouhetta, joka auttaa tasoittamaan kentän pintaa ja parantamaan pallon pomppua. Tekonurmen väri on useimmiten sininen, vihreä tai harmaa.</p>
+
+  <h2 style="padding: 0px; text-align: center;">Padel-kentän valaistus</h2>
+  <p style="padding: 0px; text-align: center;">Hyvä valaistus on tärkeä osa padel‑kenttää, erityisesti sisähalleissa ja iltakäytössä.</p>
+  <p style="padding: 0px; text-align: center;">Valaistuksen tavoitteena on tasainen valonjako, häikäisemätön pelitila ja optimaalinen näkyvyys pallolle ja seinille. LED‑valaistus on nykyään yleisin ratkaisu energiatehokkuutensa ja valotehonsa ansiosta.</p>
+
+  <h2 style="padding: 0px; text-align: center;">Miksi laadukas padel‑kenttä on tärkeä</h2>
+  <p style="padding: 0px; text-align: center;">Hyvin suunniteltu ja rakennettu padel‑kenttä parantaa pelikokemusta, vähentää loukkaantumisriskiä, tarjoaa tasaisen ja reilun pelialustan sekä kestää kovaa käyttöä ja vaihtelevia olosuhteita </p>
+  </div>
+  <!--Footer-->
+<footer class="bg-dark text-white py-5 mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h5>Tietoa meistä</h5>
+        <p>Tervetuloa Padel-sivustollemme. Tavoitteennamme on tuoda Padel enemmän suomalaisten tietoisuuteen ja saada harrastajia tämän hienon lajin pariin lisää</p>
+      </div>
+      <div class="col-md-4">
+        <h5>Linkkejä</h5>
+        <ul class="list-unstyled">
+          <li><a href="index.html" class="text-white-50">Etusivu</a></li>
+          <li><a href="padelkentät.html" class="text-white-50">Padelkentät</a></li>
+          <li><a href="Padlemailat.html" class="text-white-50">Padelmailat</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h5>Yhteystiedot</h5>
+        <p>Veeti Nummila / Sivuston ylläpitäjä</p>
+        <p class="text-white-40">Sähköposti: Veeti.Nummila@student.laurea.fi</p>
+        <p class="text-white-40">Puhelin: 040 123 4567</p>
+      </div>
+    </div>
+    <hr>
+    <p class="text-center text-white-50">&copy; 2026 Padel Website. All rights reserved.</p>
+  </div>
+</footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
 </body>
 </html>

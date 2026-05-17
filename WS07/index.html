@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fi">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -50,6 +50,7 @@
 
     body .navbar {
       background-color: #f8f9fa !important;
+      height: 100px;
     }
 
     body .navbar .nav-link,
@@ -68,6 +69,31 @@
     body .dropdown-item:hover {
       background-color: #ffffff;
     }
+
+body h1 {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+body p {
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
+}
+
+footer {
+  margin-top: auto;
+  border-top: 2px solid #ffffff;
+}
+
+footer a {
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #000000 !important;
+}
+
   </style>
 </head>
 <body>
@@ -101,7 +127,7 @@
           </li>
         </ul>
         <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-dark" type="submit">Search</button>
         </form>
       </div>
@@ -113,13 +139,13 @@
 <div id="carouselExample" class="carousel slide">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="Tapia.avif" class="d-block mx-auto" style="max-width: 70%; height: 800px;" alt="...">
+      <img src="Tapia.avif" class="d-block w-100 img-fluid" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="padel-match.avif" class="d-block mx-auto" style="max-width: 70%; height: 800px;" alt="...">
+      <img src="padel-match.avif" class="d-block w-100 img-fluid" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="padel-court.avif" class="d-block mx-auto" style="max-width: 70%; height: 800px;" alt="...">
+      <img src="padel-court.avif" class="d-block w-100 img-fluid" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -131,6 +157,61 @@
     <span class="visually-hidden">Next</span> 
   </button>
 </div>
+
+<!--Tässä kerroin yleistä tietoa Padelista lajina-->
+
+  <div class="container content-section text-center">
+  <h1>Padel - nopeasti kasvava mailapeli</h1>
+  <p>Padel on vauhdikas ja helposti omaksuttava mailapeli, joka yhdistää tenniksen ja squashin parhaita puolia. Laji on kehitetty 1960 - luvulla Meksikossa, mutta sen suosio on kasvanut erityisesti 2000‑luvulla, ja siitä on tullut yksi Euroopan nopeimmin leviävistä urheilumuodoista. Suomessa padel on vakiinnuttanut asemansa niin harrastajien kuin kilpailijoiden keskuudessa.</p>
+
+  <h1>Pelin idea ja kenttä</h1>
+  <p>Padelia pelataan yleensä nelinpelinä, mikä tekee siitä sosiaalisen ja helposti lähestyttävän lajin. Kenttä on tenniskenttää pienempi ja sitä ympäröivät lasi- ja metalliseinät, joita saa hyödyntää pelin aikana. Tämä tuo peliin dynaamisuutta ja mahdollistaa pidemmät pallorallit.</p>
+
+<img src="Padel.jpeg" alt="Padel välineet" class="d-block mx-auto img-fluid" style="max-width: 700px;">
+
+  <h1>Välineet</h1>
+  <p>Padelmaila on lyhytvartinen ja reikäinen mikä tekee siitä helppokäyttöisen myös aloittelijoille. Pallo muistuttaa tennispalloa, mutta on hieman vähemmän paineistettu, jotta se sopii lajin tempoon ja kentän rakenteeseen.</p>
+
+  <!--Kuva Padel-välineistä ja määritelty se vastaamaan kooltaan sivun muita kuvia-->
+  <img src="Padel välineet.jpg" alt="Padel välineet" class="d-block mx-auto img-fluid" style="max-width: 700px;">
+
+  <h1>Kenelle padel sopii</h1>
+  <p>Padel sopii lähes kaikille ikään tai taitotasoon katsomatta. Lajin aloittaminen ei vaadi aiempaa mailapelitaustaa, ja pelin perusasiat oppii nopeasti.</p>
+
+  <img src="People playing padel.jpg" alt="Padel välineet" class="d-block mx-auto img-fluid" style="max-width: 700px;">
+
+
+  <h1>Miksi padel on niin suosittu</h1>
+  <p>Padelin suosio perustuu sen helppouteen, yhteisöllisyyteen ja pelin nopeatempoiseen luonteeseen. Laji tarjoaa onnistumisen kokemuksia jo ensimmäisistä pelikerroista lähtien, ja sen voi aloittaa ilman suuria varustehankintoja.</p>
+  </div>
+
+<!--Footer-->
+<footer class="bg-dark text-white py-5 mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h5>Tietoa meistä</h5>
+        <p>Tervetuloa Padel-sivustollemme. Tavoitteennamme on tuoda Padel enemmän suomalaisten tietoisuuteen ja saada harrastajia tämän hienon lajin pariin</p>
+      </div>
+      <div class="col-md-4">
+        <h5>Linkkejä</h5>
+        <ul class="list-unstyled">
+          <li><a href="index.html" class="text-white-50">Etusivu</a></li>
+          <li><a href="padelkentät.html" class="text-white-50">Padelkentät</a></li>
+          <li><a href="Padlemailat.html" class="text-white-50">Padelmailat</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h5>Yhteystiedot</h5>
+        <p>Veeti Nummila / Sivuston ylläpitäjä</p>
+        <p class="text-white-40">Sähköposti: Veeti.Nummila@student.laurea.fi</p>
+        <p class="text-white-40">Puhelin: 040 123 4567</p>
+      </div>
+    </div>
+    <hr>
+    <p class="text-center text-white-50">&copy; 2026 Padel Website. All rights reserved.</p>
+  </div>
+</footer>
 
 <!--bootstrap javascript-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
