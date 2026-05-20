@@ -34,7 +34,6 @@
       border-color: #3d3939;
       color: #fff !important;
     }
-<!--Laitettu teksti näkyviin hakukenttään-->
 
     body .form-control:focus {
       background-color: #222;
@@ -49,13 +48,13 @@
     }
 
     body .navbar {
-      background-color: #f8f9fa !important;
-      height: 100px;
+      background-color: #640955 !important;
+      min-height: 100px;
     }
 
     body .navbar .nav-link,
     body .navbar .navbar-brand {
-      color: #000000 !important;
+      color: #ffffff !important;
     }
 
     body .dropdown-menu {
@@ -102,6 +101,7 @@ footer a:hover {
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">Etusivu</a>
+
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -120,16 +120,15 @@ footer a:hover {
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Maailman parhaat pelaajat
             </a>
+
+<!--Alamenu ja sen sisältö-->
+
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="miehet.html">Miehet</a></li>
               <li><a class="dropdown-item" href="naiset.html">Naiset</a></li>
             </ul>
           </li>
         </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-dark" type="submit">Search</button>
-        </form>
       </div>
     </div>
   </nav>
@@ -162,39 +161,55 @@ footer a:hover {
 
   <div class="container content-section text-center">
   <h1>Padel - nopeasti kasvava mailapeli</h1>
+  
   <p>Padel on vauhdikas ja helposti omaksuttava mailapeli, joka yhdistää tenniksen ja squashin parhaita puolia. Laji on kehitetty 1960 - luvulla Meksikossa, mutta sen suosio on kasvanut erityisesti 2000‑luvulla, ja siitä on tullut yksi Euroopan nopeimmin leviävistä urheilumuodoista. Suomessa padel on vakiinnuttanut asemansa niin harrastajien kuin kilpailijoiden keskuudessa.</p>
+  
 
   <h1>Pelin idea ja kenttä</h1>
   <p>Padelia pelataan yleensä nelinpelinä, mikä tekee siitä sosiaalisen ja helposti lähestyttävän lajin. Kenttä on tenniskenttää pienempi ja sitä ympäröivät lasi- ja metalliseinät, joita saa hyödyntää pelin aikana. Tämä tuo peliin dynaamisuutta ja mahdollistaa pidemmät pallorallit.</p>
 
-<img src="Padel.jpeg" alt="Padel välineet" class="d-block mx-auto img-fluid" style="max-width: 700px;">
+<div class="row justify-content-center">
+    <div class="col-12 col-md-10 col-lg-8 text-center">
+        <img src="Padel.jpeg" class="img-fluid" alt="Kuvalinkki on rikki">
+    </div>
+</div>
 
   <h1>Välineet</h1>
   <p>Padelmaila on lyhytvartinen ja reikäinen mikä tekee siitä helppokäyttöisen myös aloittelijoille. Pallo muistuttaa tennispalloa, mutta on hieman vähemmän paineistettu, jotta se sopii lajin tempoon ja kentän rakenteeseen.</p>
 
   <!--Kuva Padel-välineistä ja määritelty se vastaamaan kooltaan sivun muita kuvia-->
-  <img src="Padel välineet.jpg" alt="Padel välineet" class="d-block mx-auto img-fluid" style="max-width: 700px;">
+<div class="row justify-content-center">
+    <div class="col-12 col-md-10 col-lg-8 text-center">
+        <img src="Padel_välineet.jpg" class="img-fluid" alt="Kuvalinkki on rikki">
+    </div>
+</div>
+
 
   <h1>Kenelle padel sopii</h1>
   <p>Padel sopii lähes kaikille ikään tai taitotasoon katsomatta. Lajin aloittaminen ei vaadi aiempaa mailapelitaustaa, ja pelin perusasiat oppii nopeasti.</p>
 
-  <img src="People playing padel.jpg" alt="Padel välineet" class="d-block mx-auto img-fluid" style="max-width: 700px;">
-
+<div class="row justify-content-center">
+    <div class="col-12 col-md-10 col-lg-8 text-center">
+        <img src="People_playing_padel.jpg" class="img-fluid" alt="Kuvalinkki on rikki">
+    </div>
+</div>
 
   <h1>Miksi padel on niin suosittu</h1>
   <p>Padelin suosio perustuu sen helppouteen, yhteisöllisyyteen ja pelin nopeatempoiseen luonteeseen. Laji tarjoaa onnistumisen kokemuksia jo ensimmäisistä pelikerroista lähtien, ja sen voi aloittaa ilman suuria varustehankintoja.</p>
-  </div>
+  
 
+  <h1 class="text-center mt-5">Tervetuloa padelin hienoon maailmaan!</h1>
+</div>
 <!--Footer-->
 <footer class="bg-dark text-white py-5 mt-5">
   <div class="container">
     <div class="row">
       <div class="col-md-4">
-        <h5>Tietoa meistä</h5>
-        <p>Tervetuloa Padel-sivustollemme. Tavoitteennamme on tuoda Padel enemmän suomalaisten tietoisuuteen ja saada harrastajia tämän hienon lajin pariin</p>
+        <h2>Tietoa meistä</h2>
+        <p>Olemme vuonna 2026 perustettu Varsinais-Suomalainen padel toimija, joka pyrkii edistämään padelin kasvua Suomessa. </p>
       </div>
       <div class="col-md-4">
-        <h5>Linkkejä</h5>
+        <h2>Linkkejä</h2>
         <ul class="list-unstyled">
           <li><a href="index.html" class="text-white-50">Etusivu</a></li>
           <li><a href="padelkentät.html" class="text-white-50">Padelkentät</a></li>
@@ -202,7 +217,7 @@ footer a:hover {
         </ul>
       </div>
       <div class="col-md-4">
-        <h5>Yhteystiedot</h5>
+        <h2>Yhteystiedot</h2>
         <p>Veeti Nummila / Sivuston ylläpitäjä</p>
         <p class="text-white-40">Sähköposti: Veeti.Nummila@student.laurea.fi</p>
         <p class="text-white-40">Puhelin: 040 123 4567</p>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fi">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,7 @@
   <style>
     body {
       background-color: #000000;
-      color: #fafafa;
+      color: #ffffff;
       min-height: 100vh;
     }
 
@@ -24,7 +24,7 @@
     }
 
     body .navbar {
-      background-color: #881818 !important;
+      background-color: #640955 !important;
        height: 100px;
     }
 
@@ -32,6 +32,10 @@
     body .navbar .navbar-brand {
       color: #ffffff !important;
     }
+
+    .navbar-collapse {
+  background-color: #640955 !important;
+}
 
     .img-fluid {
       max-width: 100%;
@@ -62,6 +66,19 @@
     .card:hover .card-text {
       color: #ffffff !important;
     }
+
+body .dropdown-menu {
+  background-color: #640955 !important;
+}
+
+body .dropdown-item {
+  color: #ffffff !important;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
 
   </style>
 </head>
@@ -95,6 +112,9 @@
     </div>
   </nav>
 
+
+  <!-- Sisältö -->
+
   <main class="container content-section mt-5 text-white">
     <div class="row">
       <div class="col-12 col-md-6 text-start">
@@ -104,35 +124,39 @@
     </div>
   </main>
 
-  <div class="row row-cols-1 row-cols-md-2 g-4">
+<div class="row row-cols-1 row-cols-md-2 g-4">
+
   <div class="col">
     <div class="card h-100">
-      <img src="agustin_tapia.jpeg" class="card-img-top" alt="...">
+      <img src="agustin_tapia.jpeg" class="card-img-top" alt="Kuvalinkki on rikki">
       <div class="card-body">
-        <h4 class="card-title">Agustin Tapia "Mozart"</h4>
-        <p class="card-text">26-vuotias Argentiinalainen padel pelaaja, joka on tällä hetkellä maailmanlistalla sijalla 1.</p>
+        <h2 class="card-title">Agustin Tapia "Mozart"</h2>
+        <p class="card-text">29-vuotias Espanjalainen padel pelaaja, joka on tällä hetkellä maailmanlistalla sijalla 1.</p>
         <p class="card-text">Tapia on voittanut useita kansainvälisiä turnauksia ja hänet tunnetaan nopeudestaan ja teknisistä taidoistaan kentällä.</p>
-        <p class="card-text">Hänen pelityylinsä on aggressiivinen, ja hän on erityisen taitava verkolla, mikä tekee hänestä erittäin vaarallisen vastustajan.</p>
-        <p class="card-text">Hän on yksi padelin kirkkaimmista tähdistä ja odotetaan hänen jatkavan menestystään tulevaisuudessa.</p>
+        <p class="card-text">Hänen pelityylinsä on aggressiivinen, ja hän on erityisen taitava ylälyönneissä, mikä tekee hänestä erittäin vaarallisen vastustajan.</p>
         <p class="card-text">Agustin Tapia kilpailee Espanjalaisen Arturo Coellon kanssa</p>
       </div>
     </div>
-    <div class="card h-100 mt-4">
-      <img src="Ale Galan.jpg" class="card-img-top" alt="...">
+  </div>
+
+  <div class="col">
+    <div class="card h-100">
+      <img src="Ale_Galan.jpg" class="card-img-top" alt="Kuvalinkki on rikki">
       <div class="card-body">
-        <h4 class="card-title">Ale Galan</h4>
+        <h2 class="card-title">Ale Galan</h2>
         <p class="card-text">29-vuotias Espanjalainen padel pelaaja, joka on tällä hetkellä maailmanlistalla sijalla 3.</p>
         <p class="card-text">Galan on voittanut useita kansainvälisiä turnauksia ja hänet tunnetaan nopeudestaan ja teknisistä taidoistaan kentällä.</p>
         <p class="card-text">Hänen pelityylinsä on aggressiivinen, ja hän on erityisen taitava ylälyönneissä, mikä tekee hänestä erittäin vaarallisen vastustajan.</p>
         <p class="card-text">Ale Galan kilpailee Argentiinalaisen Federico Chingotto kanssa</p>
       </div>
-    </div>  </div>
+    </div>
+  </div>
 
   <div class="col">
     <div class="card h-100">
-      <img src="Arturo Coello.jpg" class="card-img-top" alt="...">
+      <img src="Arturo_Coello.jpg" class="card-img-top" alt="Kuvalinkki on rikki">
       <div class="card-body">
-        <h4 class="card-title">Arturo Coello "El Niño"</h4>
+        <h2 class="card-title">Arturo Coello "El Niño"</h2>
         <p class="card-text">23-vuotias Espanjalainen padel pelaaja, joka on tällä hetkellä maailmanlistalla sijalla 2.</p>
         <p class="card-text">Coello on voittanut useita kansainvälisiä turnauksia ja hänet tunnetaan teknisistä taidoistaan ja strategiastaan kentällä.</p>
         <p class="card-text">Hänen pelityylinsä on metodinen, ja hän on erityisen taitava pallojen hallinnassa, mikä tekee hänestä erittäin vaarallisen vastustajan.</p>
@@ -140,11 +164,13 @@
         <p class="card-text">Arturo Coello kilpailee Argentiinalaisen Agustin Tapian kanssa</p>
       </div>
     </div>
+  </div>
 
-    <div class="card h-100 mt-4">
-      <img src="Federico_Chingotto.jpg" class="card-img-top" alt="...">
+  <div class="col">
+    <div class="card h-100">
+      <img src="Federico_Chingotto.jpg" class="card-img-top" alt="Kuvalinkki on rikki">
       <div class="card-body">
-        <h4 class="card-title">Federico Chingotto</h4>
+        <h2 class="card-title">Federico Chingotto</h2>
         <p class="card-text">29-vuotias Argentiinalainen padel pelaaja, joka on tällä hetkellä maailmanlistalla sijalla 4.</p>
         <p class="card-text">Chingotto on voittanut useita kansainvälisiä turnauksia ja hänet tunnetaan nopeudestaan ja teknisistä taidoistaan kentällä.</p>
         <p class="card-text">Hänen pelityylinsä on aggressiivinen, ja hän on erityisen taitava verkolla, mikä tekee hänestä erittäin vaarallisen vastustajan.</p>
@@ -152,7 +178,37 @@
       </div>
     </div>
   </div>
+
 </div>
+
+<!--Footer-->
+
+<footer class="bg-dark text-white py-5 mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h2>Tietoa meistä</h2>
+        <p>Tervetuloa Padel-sivustollemme. Tavoitteennamme on tuoda Padel enemmän suomalaisten tietoisuuteen ja saada harrastajia tämän hienon lajin pariin lisää</p>
+      </div>
+      <div class="col-md-4">
+        <h2>Linkkejä</h2>
+        <ul class="list-unstyled">
+          <li><a href="index.html" class="text-white-50">Etusivu</a></li>
+          <li><a href="padelkentät.html" class="text-white-50">Padelkentät</a></li>
+          <li><a href="Padlemailat.html" class="text-white-50">Padelmailat</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h2>Yhteystiedot</h2>
+        <p>Veeti Nummila / Sivuston ylläpitäjä</p>
+        <p class="text-white-40">Sähköposti: Veeti.Nummila@student.laurea.fi</p>
+        <p class="text-white-40">Puhelin: 040 123 4567</p>
+      </div>
+    </div>
+    <hr>
+    <p class="text-center text-white-50">&copy; 2026 Padel Website. All rights reserved.</p>
+  </div>
+</footer>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
